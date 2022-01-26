@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Product } from './_models/product/product.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-first-angular';
+  title = 'AngularL1';
+  // addedProduct: Product[] = [];
+  
+  // Adding Number of product beside without repeating
+//   onItemAdding(product: Product){
+//   console.log(product);
+//   if(this.addedProduct.includes(product))
+//   {
+//     product.Count++;
+//   }else{
+//     this.addedProduct.push(product);
+//   }
+// }
 }

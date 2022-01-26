@@ -1,1 +1,3 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/sass/main.scss'; // This to import sass file from the folder i moved in assets which imports other files in return
+@import'../node_modules/@fortawesome/fontawesome-free/css/all.min.css'
